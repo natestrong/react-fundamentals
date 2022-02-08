@@ -31,8 +31,6 @@
 
     const children = ['Hello, ', 'world!'].map((s, key) => React.createElement('span', {key}, s));
 
-    console.log(children);
-
     const reactElement = React.createElement('div', 
         {id: 'element-id', children, className: 'container'}
     );
